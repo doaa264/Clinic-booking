@@ -12,6 +12,7 @@ public class Clinic_Final_Project {
         patient.enqueue(4);
         patient.enqueue(2);
         patient.enqueue(3);
+        patient.display();
         System.out.println("\n\nSearch in Queue" + "\n------------------------------------------");
         patient.search(10);
         System.out.println("\n\nSorted Queue" + "\n------------------------------------------");

@@ -22,11 +22,11 @@ public class Clinic {
        if(isFull()){
            System.out.println("Is empty");
        } 
+       rear += 1;
+       array[rear]=x;
        if(front == -1){
            front = 0;
        }
-       rear += 1;
-       array[rear]=x;
     }
     
     
